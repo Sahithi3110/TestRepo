@@ -3,6 +3,14 @@ package com.pavan;
 public class Bread {
 	private String breadType;
 	private int caloriesPerSlice;
+	private String colour;
+	
+	public String getColour() {
+		return colour;
+	}
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
 	public String getBreadType() {
 		return breadType;
 	}
